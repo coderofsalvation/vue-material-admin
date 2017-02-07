@@ -38,7 +38,7 @@ export default function apiClient ({
       }
       const body = response.body || response.text || {}
       const result = body.result || {}
-      const { code = 1, message = '未知错误' } = result
+      const { code = 1, message = 'flop' } = result
 
       switch (+code) {
         case 0:

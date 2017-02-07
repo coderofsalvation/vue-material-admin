@@ -1,5 +1,5 @@
 <template>
-  <demo-page label="日程管理 1">
+  <demo-page label="items 1">
     <md-button class="md-fab md-fab-top-right md-mini" style="top:38px;right:38px;z-index:10;">
       <md-icon>add</md-icon>
     </md-button>
@@ -8,10 +8,10 @@
         <md-table-header>
           <md-table-row>
             <md-table-head>ID</md-table-head>
-            <md-table-head>时间</md-table-head>
-            <md-table-head>地点</md-table-head>
-            <md-table-head>事件</md-table-head>
-            <md-table-head>操作</md-table-head>
+            <md-table-head>Schedule</md-table-head>
+            <md-table-head>Start at</md-table-head>
+            <md-table-head>Address</md-table-head>
+            <md-table-head>Title</md-table-head>
           </md-table-row>
         </md-table-header>
         <md-table-body>

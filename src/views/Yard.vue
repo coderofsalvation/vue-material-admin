@@ -4,13 +4,13 @@
       <md-button class="md-icon-button" @click="toggleLeftSidenav">
         <md-icon>menu</md-icon>
       </md-button>
-      <h2 class="md-title" style="flex: 1">管理系统</h2>
+      <h2 class="md-title" style="flex: 1">Projectname</h2>
       <md-menu>
         <md-button class="md-icon-button" md-menu-trigger>
           <md-icon>more_vert</md-icon>
         </md-button>
         <md-menu-content>
-          <md-menu-item @click="loginOut">退出</md-menu-item>
+          <md-menu-item @click="loginOut">Logout</md-menu-item>
         </md-menu-content>
       </md-menu>
     </md-toolbar>
@@ -42,7 +42,7 @@
 </template>
 <script>
 const NAV = [{
-  name: '统计',
+  name: 'Examples',
   icon: 'equalizer',
   children: [{
     name: 'Example 1',
@@ -52,7 +52,7 @@ const NAV = [{
     path: '/example2'
   }]
 }, {
-  name: '主页',
+  name: 'Home',
   icon: 'home',
   path: '/home'
 }]

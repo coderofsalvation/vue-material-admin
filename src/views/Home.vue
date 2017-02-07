@@ -1,14 +1,14 @@
 <template>
   <div class="search-wrap">
     <md-input-container md-inline class="input-wrap">
-      <label>工号</label>
+      <label>a</label>
       <md-input></md-input>
     </md-input-container>
     <md-input-container>
-      <label for="movie">分组</label>
+      <label for="movie">Movie</label>
       <md-select name="movie" id="movie" v-model="movie">
-        <md-option value="2000009">亚太二楼</md-option>
-        <md-option value="2000008">金业六楼 </md-option>
+        <md-option value="2000009">flop</md-option>
+        <md-option value="2000008">flap</md-option>
       </md-select>
     </md-input-container>
   </div>

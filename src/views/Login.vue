@@ -3,17 +3,17 @@
     <md-whiteframe md-elevation="8" class="login-wrap">
       <form novalidate @submit.stop.prevent="login">
         <md-input-container>
-          <label>用户名</label>
+          <label>Username</label>
           <md-input v-model="name"></md-input>
         </md-input-container>
         <md-input-container md-has-password>
-          <label>密码</label>
+          <label>Password</label>
           <md-input type="password" v-model="password"></md-input>
         </md-input-container>
         <div>
           <md-button 
             type="submit"
-            class="md-raised md-primary login-btn">登录</md-button>
+            class="md-raised md-primary login-btn">Login</md-button>
         </div>
       </form>
     </md-whiteframe>
@@ -27,7 +27,7 @@ import apiClient from 'src/helper/apiClient'
 export default {
   data () {
     return {
-      name: 'yatai',
+      name: '',
       password: ''
     }
   },
